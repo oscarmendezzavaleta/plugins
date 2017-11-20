@@ -3,12 +3,14 @@
       <button ion-button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-      <ion-title>Home</ion-title>
+      <ion-title>Bateria</ion-title>
     </ion-navbar>
   </ion-header>
-  
-<ion-content padding>
-  
 
+
+<ion-content padding>
+
+    <h2>Battery status: {{status?.level}}</h2>
+    <h2>Battery is plugged:{{status?.isPlugged}}</h2>
 
 </ion-content>

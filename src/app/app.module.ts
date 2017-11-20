@@ -1,3 +1,8 @@
+import { LocalpushPage } from './../pages/localpush/localpush';
+import { DialogosPage } from './../pages/dialogos/dialogos';
+import { ToastPage } from '../pages/toast/toast';
+
+import { DispositivoPage } from './../pages/dispositivo/dispositivo';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -6,11 +11,24 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { BateryPage } from '../pages/batery/batery';
+import { BatteryStatus } from '@ionic-native/battery-status'; 
+import { Device } from '@ionic-native/device';
+import { Toast } from '@ionic-native/toast'; 
+import { Dialogs } from '@ionic-native/dialogs'; 
+import { LocalNotificationPage } from '../pages/local-notification/local-notification';
+import { LocalNotifications } from '@ionic-native/local-notifications'; 
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    BateryPage,
+    DispositivoPage,
+    ToastPage,
+    DialogosPage,
+    LocalNotificationPage,
+    LocalpushPage
   ],
   imports: [
     BrowserModule,
@@ -19,11 +37,22 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    BateryPage,
+    DispositivoPage,
+    ToastPage,
+    DialogosPage,
+    LocalNotificationPage,
+    LocalpushPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    BatteryStatus,
+    Device,
+    Toast,
+    Dialogs,
+    LocalNotifications,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
