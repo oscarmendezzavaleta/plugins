@@ -21,7 +21,7 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
 import { GeolocalizacionPage } from '../pages/geolocalizacion/geolocalizacion'
 import { Geolocation } from '@ionic-native/geolocation';
 import { ContactoPage } from '../pages/contacto/contacto';
-import { Contacts, Contact, ContactField, ContactName } from '@ionic-native/contacts';
+//import { Contacts, Contact, ContactField, ContactName } from '@ionic-native/contacts';
 
 @NgModule({
   declarations: [
@@ -63,7 +63,7 @@ import { Contacts, Contact, ContactField, ContactName } from '@ionic-native/cont
     Dialogs,
     LocalNotifications,
     Geolocation,
-    Contacts,Contact, ContactField, ContactName,
+    //Contacts,Contact, ContactField, ContactName,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
