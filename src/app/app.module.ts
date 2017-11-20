@@ -18,6 +18,10 @@ import { Toast } from '@ionic-native/toast';
 import { Dialogs } from '@ionic-native/dialogs'; 
 import { LocalNotificationPage } from '../pages/local-notification/local-notification';
 import { LocalNotifications } from '@ionic-native/local-notifications'; 
+import { GeolocalizacionPage } from '../pages/geolocalizacion/geolocalizacion'
+import { Geolocation } from '@ionic-native/geolocation';
+import { ContactoPage } from '../pages/contacto/contacto';
+import { Contacts, Contact, ContactField, ContactName } from '@ionic-native/contacts';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,10 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
     ToastPage,
     DialogosPage,
     LocalNotificationPage,
-    LocalpushPage
+    LocalpushPage,
+    GeolocalizacionPage,
+    ContactoPage
+    
   ],
   imports: [
     BrowserModule,
@@ -43,7 +50,9 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
     ToastPage,
     DialogosPage,
     LocalNotificationPage,
-    LocalpushPage
+    LocalpushPage,
+    GeolocalizacionPage,
+    ContactoPage
   ],
   providers: [
     StatusBar,
@@ -53,6 +62,8 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
     Toast,
     Dialogs,
     LocalNotifications,
+    Geolocation,
+    Contacts,Contact, ContactField, ContactName,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

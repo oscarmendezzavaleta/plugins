@@ -11,8 +11,8 @@ import { BateryPage } from './../pages/batery/batery';
 import { DispositivoPage } from '../pages/dispositivo/dispositivo';
 import { ToastPage } from '../pages/toast/toast';
 import { LocalpushPage } from '../pages/localpush/localpush';
-
-
+import { GeolocalizacionPage } from '../pages/geolocalizacion/geolocalizacion';
+import { ContactoPage } from '../pages/contacto/contacto'
 
 @Component({
   templateUrl: 'app.html'
@@ -41,7 +41,9 @@ export class MyApp {
       {title:'Toast', component:ToastPage},
       {title:'Dialogos', component:DialogosPage},
       {title:'Local Noti', component:LocalNotificationPage},
-      {title:'PushLocal', component:LocalpushPage}
+      {title:'PushLocal', component:LocalpushPage},
+      {title:'Geo', component:GeolocalizacionPage},
+      {title:'Contacto', component:ContactoPage},
     ];
   }
 
