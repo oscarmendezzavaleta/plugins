@@ -22,6 +22,7 @@ import { GeolocalizacionPage } from '../pages/geolocalizacion/geolocalizacion'
 import { Geolocation } from '@ionic-native/geolocation';
 import { ContactoPage } from '../pages/contacto/contacto';
 import { Contacts } from '@ionic-native/contacts';
+import {FCM} from "@ionic-native/fcm";
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { Contacts } from '@ionic-native/contacts';
     LocalNotifications,
     Geolocation,
     Contacts,
+    FCM,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

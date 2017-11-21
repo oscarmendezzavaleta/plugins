@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "202721918508",
+    "firebase_url": "https://fcm-ionic-1e22a.firebaseio.com",
+    "project_id": "fcm-ionic-1e22a",
+    "storage_bucket": "fcm-ionic-1e22a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202721918508:android:0865555af4e740ff",
+        "android_client_info": {
+          "package_name": "com.aprendiendonet.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202721918508-4kqktrs0vv4mqvr46teao5igdevv1s55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsT3c4qk9qWoMVCbhPah_eoPloOSRIXNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202721918508:android:f6be658f7838c648",
+        "android_client_info": {
+          "package_name": "com.aprendiendonet.batterystatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202721918508-4kqktrs0vv4mqvr46teao5igdevv1s55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsT3c4qk9qWoMVCbhPah_eoPloOSRIXNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
